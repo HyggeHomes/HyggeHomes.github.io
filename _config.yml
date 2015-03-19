@@ -1,0 +1,10 @@
+name: Hygge Homes
+description: ""
+markdown: kramdown
+highlighter: pygments
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "CNAME", "lib"]
+sass:
+    style: compressed # nested|expanded|compact|compressed
+    sass_dir: lib
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
