@@ -14,8 +14,9 @@ GEM
     execjs (2.4.0)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
+    ffi (1.9.8-x64-mingw32)
     hitimes (1.2.2)
-    jekyll (2.4.0)
+    jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
@@ -65,7 +66,8 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 2.4.0)
+  jekyll (~> 2.5.3)
   kramdown (~> 1.4.2)
