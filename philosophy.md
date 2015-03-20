@@ -1,29 +1,3 @@
-<!doctype html>
-<html>
-<head> 
-  <link href='http://fonts.googleapis.com/css?family=Antic+Didone|EB+Garamond|Cardo' rel='stylesheet' type='text/css'>
-<title>Hygge Homes</title>  
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="CSS.css" >
-</head>
-<body>
-
-    <nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-     <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="home.html">Home</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="Calendar.html">Calendar</a></li>
-        <li><a href="Philosophy.html">Philosophy</a></li>
-        <li><a href="Learn More.html">Learn More</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-      
-     
 <br>
 <h2>Philosophy</h2>
 
@@ -47,15 +21,3 @@ In acknowledging that we want the East End to be a place for everyone we must al
 <br>
 <br>
 <br> 
-</p>
-
-<footer id="footer">
-        <div class="container">
-          <p>Hygge Homes</p>
-          <p>A Lexington, Kentucky act of love, 2015.</p>
-        </div>
-  </footer> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-</body>
-  </html>
