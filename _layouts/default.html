@@ -1,48 +1,50 @@
 <!doctype html>
 <html>
-<head>
-	<link href='http://fonts.googleapis.com/css?family=Antic+Didone|EB+Garamond|Cardo' rel='stylesheet' type='text/css'>
-<title>Hygge Homes</title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="CSS.css" >
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Antic+Didone|EB+Garamond|Cardo' rel='stylesheet' type='text/css'>
+    <title>{{page.title}} - {{site.name}}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Style.css">
 </head>
+
 <body>
 
     <nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-     <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li{% if page.url == '/' %} class="active"{% endif %}>
-          <a href="/">Home</a>
-        </li>
-        <li{% if page.url == '/blog/' %} class="active"{% endif %}>
-          <a href="/blog/">Blog</a>
-        </li>
-        <li{% if page.url == '/calendar/' %} class="active"{% endif %}>
-          <a href="/calendar/">Calendar</a>
-        </li>
-        <li{% if page.url == '/philosophy/' %} class="active"{% endif %}>
-          <a href="/philosophy/">Philosophy</a>
-        </li>
-        <li{% if page.url == '/learn-more/' %} class="active"{% endif %}>
-          <a href="/learn-more/">Learn More</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li{% if page.url=='/' %} class="active" {% endif %}>
+                      <a href="/">Home</a>
+                      </li>
+                    <li{% if page.url=='/blog/' %} class="active" {% endif %}>
+                      <a href="/blog/">Blog</a>
+                    </li>
+                    <li{% if page.url=='/calendar/' %} class="active" {% endif %}>
+                      <a href="/calendar/">Calendar</a>
+                    </li>
+                    <li{% if page.url=='/philosophy/' %} class="active" {% endif %}>
+                      <a href="/philosophy/">Philosophy</a>
+                    </li>
+                    <li{% if page.url=='/learn-more/' %} class="active" {% endif %}>
+                      <a href="/learn-more/">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-{{content}}
+    {{content}}
 
-<footer id="footer">
-      	<div class="container">
-      		<p>Hygge Homes</p>
-      		<p>A Lexington, Kentucky act of love, 2015.</p>
-      	</div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <footer id="footer">
+      <div class="container">
+        <p>{{site.name}}</p>
+        <p>{{site.description}}</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
-</html>
 
+</html>

@@ -1,5 +1,5 @@
 name: Hygge Homes
-description: ""
+description: "Tiny Home building in Lexington, Kentucky"
 markdown: kramdown
 highlighter: pygments
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "CNAME", "lib", ".gitignore"]
