@@ -13,11 +13,21 @@
   <div class="container-fluid">
      <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/blog/">blog</a></li>
-        <li><a href="/calendar/">Calendar</a></li>
-        <li><a href="/philosophy/">Philosophy</a></li>
-        <li><a href="/learn-more/">Learn More</a></li>
+        <li{% if page.url == '/' %} class="active"{% endif %}>
+          <a href="/">Home</a>
+        </li>
+        <li{% if page.url == '/blog/' %} class="active"{% endif %}>
+          <a href="/blog/">Blog</a>
+        </li>
+        <li{% if page.url == '/calendar/' %} class="active"{% endif %}>
+          <a href="/calendar/">Calendar</a>
+        </li>
+        <li{% if page.url == '/philosophy/' %} class="active"{% endif %}>
+          <a href="/philosophy/">Philosophy</a>
+        </li>
+        <li{% if page.url == '/learn-more/' %} class="active"{% endif %}>
+          <a href="/learn-more/">Learn More</a>
+        </li>
       </ul>
     </div>
   </div>

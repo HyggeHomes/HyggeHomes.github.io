@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Philosophy
-permalink: /Philosophy/
+permalink: /philosophy/
 ---
 <p>
  Why Hygge (Huh-guh)?
