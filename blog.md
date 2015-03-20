@@ -6,7 +6,7 @@ permalink: /blog/
 <ul class="post-list list-unstyled">
   {% for post in site.posts %}
     <li class="post-list-item">
-      <h2>
+      <h2 class="post-title">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
           <small>
