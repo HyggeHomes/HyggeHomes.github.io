@@ -1,7 +1,9 @@
-<br>
-<h2>Philosophy</h2>
-
-<p> 
+---
+layout: page
+title: Philosophy
+permalink: /Philosophy/
+---
+<p>
  Why Hygge (Huh-guh)?
  <br>
 <br>
@@ -11,13 +13,13 @@ Hygge is a danish term that connotes a range of meanings in english: warmth, fra
 The tiny home movement evokes a move away from material wealth toward an appreciation of that which has no monetary value. Resourcefulness, spending time with love ones, getting to know neighbors, spending quiet time with ourselves and appreciating the simple beauty around usis what Hyyge represents and is what we want home to represent in the East End.
 <br>
 <br>
-We believe that home should be a place that nurtures its inhabitants and helps them to realize their dreams and potential. We also believe that everyone should be able to access this opportunity if they choose to have it for themselves. 
+We believe that home should be a place that nurtures its inhabitants and helps them to realize their dreams and potential. We also believe that everyone should be able to access this opportunity if they choose to have it for themselves.
 <br>
 <br>
 Building tiny is one option that provides affordable low income homes that are suitable for small families or individuals. Tiny homes can help to improve the quality of life in the East End of Lexington by providing low-cost, sustainable and energy efficient options for residents. We are not interested in creating a ‘for-profit’ venture or raising property values. What we are interested in is making the East End a place for everyone.
 <br>
 <br>
-In acknowledging that we want the East End to be a place for everyone we must also acknowledge that our neighborhood and many residents within it face challenges such as chronic poverty and addictions. Instead of providing simple shelter, we envision the creation of a tiny home community to be a form of long-term community engagement. Here engagement is not simply the delivery of social services but also the very things that nurtures the human spirit-the things the term Hygge represents. We understand that creating tiny homes does not solve all of the problems facing our neighborhood nor does it offer a solution to homelessness. Building tiny is one solution amongst many needed solutions. With creating tiny homes we believe that there is the opportunity for long-term, thoughtful community engagement. 
+In acknowledging that we want the East End to be a place for everyone we must also acknowledge that our neighborhood and many residents within it face challenges such as chronic poverty and addictions. Instead of providing simple shelter, we envision the creation of a tiny home community to be a form of long-term community engagement. Here engagement is not simply the delivery of social services but also the very things that nurtures the human spirit-the things the term Hygge represents. We understand that creating tiny homes does not solve all of the problems facing our neighborhood nor does it offer a solution to homelessness. Building tiny is one solution amongst many needed solutions. With creating tiny homes we believe that there is the opportunity for long-term, thoughtful community engagement.
 <br>
 <br>
-<br> 
+<br>

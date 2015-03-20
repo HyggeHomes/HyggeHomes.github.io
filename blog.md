@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
+title: What's new?
+permalink: /blog/
 ---
-<br>
-<h1> What's new? </h1>
 <p> January 8, 2015 </p>
 <br>
 <br>
