@@ -1,39 +1,41 @@
 ---
 layout: default
 ---
-<header id="post-header">
-  <div class="container post-container">
-    <div class="inner-container">
-      <h1 class="post-title">
-        {{ page.title }}
-        <small>
-          <a href="{{ page.url }}" title="Permalink">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </a>
-        </small>
-      </h1>
-    </div>
-    <ul class="pagination">
-      {% if page.previous.url %}
-        <li class="previous">
-          <a href="{{ site.baseurl }}{{ page.previous.url }}">
-            Previous
+<div class="post-content">
+  <header id="post-header">
+    <div class="container post-container">
+      <div class="inner-container">
+        <h1 class="post-title">
+          {{ page.title }}
+          <small>
+            <a href="{{ page.url }}" title="Permalink">
+              {{ page.date | date: "%b %-d, %Y" }}
+            </a>
+          </small>
+        </h1>
+      </div>
+      <ul class="pagination">
+        {% if page.previous.url %}
+          <li class="previous">
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">
+              Previous
+            </a>
+          </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+          <a href="{{ site.baseurl }}{{ page.next.url }}">
+            Next
           </a>
         </li>
-      {% endif %}
-      {% if page.next.url %}
-      <li class="next">
-        <a href="{{ site.baseurl }}{{ page.next.url }}">
-          Next
-        </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
-</header>
+        {% endif %}
+      </ul>
+    </div>
+  </header>
 
-<article>
-  <div class="container">
-    {{ content }}
-  </div>
-</article>
+  <article>
+    <div class="container">
+      {{ content }}
+    </div>
+  </article>
+</div>
