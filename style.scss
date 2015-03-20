@@ -56,7 +56,9 @@ body {
     font-family: 'Arvo', serif;
 }
 
-.center-page-content {
+.center-page-content,
+.learn-more-intro {
+    display: block;
     background-color: #efefef;
     padding: 30px;
     color: #444;
@@ -86,8 +88,14 @@ body {
     margin-bottom: 40px;
 }
 
-.calendar-iframe {
+.calendar-iframe,
+.map-iframe {
     border: 0;
     margin: 0 auto;
     display: block;
+    position: relative;
+}
+
+.learn-more-intro {
+    margin-bottom: 40px;
 }
