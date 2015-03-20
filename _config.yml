@@ -2,7 +2,7 @@ name: Hygge Homes
 description: ""
 markdown: kramdown
 highlighter: pygments
-exclude: ["Gemfile", "Gemfile.lock", "README.md", "CNAME", "lib"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "CNAME", "lib", ".gitignore"]
 sass:
     style: compressed # nested|expanded|compact|compressed
     sass_dir: lib
