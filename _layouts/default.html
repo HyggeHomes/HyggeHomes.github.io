@@ -12,30 +12,36 @@
 <body>
 
     <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li{% if page.url=='/' %} class="active" {% endif %}>
-                      <a href="/">Home</a>
-                      </li>
-                    <li{% if page.url=='/blog/' %} class="active" {% endif %}>
-                      <a href="/blog/">Blog</a>
-                    </li>
-                    <li{% if page.url=='/calendar/' %} class="active" {% endif %}>
-                      <a href="/calendar/">Calendar</a>
-                    </li>
-                    <li{% if page.url=='/philosophy/' %} class="active" {% endif %}>
-                      <a href="/philosophy/">Philosophy</a>
-                    </li>
-                    <li{% if page.url=='/learn-more/' %} class="active" {% endif %}>
-                      <a href="/learn-more/">Learn More</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li{% if page.url == '/' %} class="active"{% endif %}>
+              <a href="/">Home</a>
+            </li>
+            <li{% if page.url == '/blog/' %} class="active"{% endif %}>
+              <a href="/blog/">Blog</a>
+            </li>
+            <li{% if page.url == '/calendar/' %} class="active"{% endif %}>
+              <a href="/calendar/">Calendar</a>
+            </li>
+            <li{% if page.url == '/philosophy/' %} class="active"{% endif %}>
+              <a href="/philosophy/">Philosophy</a>
+            </li>
+            <li{% if page.url == '/learn-more/' %} class="active"{% endif %}>
+              <a href="/learn-more/">Learn More</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    {{content}}
+    <div class="content">
+      <div class="site-header">
+        <h1>{{site.name}}</h1>
+        <h2>{{site.description}}</h2>
+      </div>
+      {{content}}
+    </div>
 
     <footer id="footer">
       <div class="container">
