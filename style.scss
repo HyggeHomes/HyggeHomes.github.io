@@ -31,6 +31,10 @@ body {
     font-size: 200%;
 }
 
+p {
+    padding-bottom: 10px;   
+}
+
 #footer {
     background: transparent;
     color: #efe5d0;
@@ -83,4 +87,10 @@ body {
 
 .learn-more-intro {
     margin-bottom: 40px;
+}
+
+.inline {
+    display: inline block;
+    float: right;
+    padding-left: 10px;    
 }
