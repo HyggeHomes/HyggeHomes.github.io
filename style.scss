@@ -19,16 +19,23 @@ h1 {
     text-align: center;
 }
 
+h1.blog {
+    color: #3074AE;
+}
+
 h3 {
     color: white;
     font-style: normal;
-    padding-left: 60px;
 }
 
 body {
     color: white;
     font-family: 'Anti Didone', 'EB Garamond', sans-serif;
     font-size: 200%;
+}
+
+p {
+    margin-bottom: 15px;
 }
 
 #footer {
@@ -83,4 +90,23 @@ body {
 
 .learn-more-intro {
     margin-bottom: 40px;
+}
+
+.inline {
+    display: inline block;
+    float: right;
+    padding-left: 10px;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+a.textcolor {
+    color: #efe5d0;
+    margin-bottom: 5px;
+}
+
+.footer-p {
+    margin-bottom: 5px;
 }
