@@ -9,6 +9,6 @@ Check the blog for updates on our shenanigans and the lessons we are learning as
 
 <h1 class='blog'>It's Coming!</h1>
 
-<img src="/images/March_12th_event_FLYER.JPG" height="547" width="417" alt="Lex Talk Tiny Homes">
+<img src="/images/March_12th_event_FLYER.jpg" height="547" width="417" alt="Lex Talk Tiny Homes">
 
 This Thursday at the Lyric Theatre we will be hosting an informational session on Tiny Homes. This session will include the perspectives of people who live in tiny homes, people who build them, as well as different stakeholders within the city who work on issues of Homelessness. The event will start at 6pm and is free to the public!
